@@ -2,6 +2,20 @@ body{
     background-color: #eee;
     font-family: 'Lato', sans-serif;
 }
+main{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+input, label{
+    width: 60%;
+    height: 30px;
+    font-size: large;
+}
+#container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 #header{
     display: flex;
     flex-direction: row;
