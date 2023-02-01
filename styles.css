@@ -1,0 +1,23 @@
+body{
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#header-img{
+   max-width: 300px; 
+   width: 100px;
+   height: 100%;
+}
+#nav-bar{
+    font-weight: 400;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
